@@ -8,7 +8,7 @@ function Register() {
         <div>
             <Menu />
 
-            <Content />
+            <Content title="titulo da pag 2" ano={2022}/>
         </div>
     )
 }

@@ -37,7 +37,7 @@ function Home() {
         <div className="container-fluid">
             <Menu />
 
-            <Content />
+            <Content title="titulo da Home" />
 
             <Footer />
 

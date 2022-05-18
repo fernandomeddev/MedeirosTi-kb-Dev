@@ -1,9 +1,12 @@
 import React from "react";
 
-function Content() {
+
+
+function Content(props) {
     return (
         <div className="Container">
-            <h1>Conteudo</h1>
+            <h1>{props.title}</h1>
+            <h1>{props.ano}</h1>
         </div>
     )
 }
